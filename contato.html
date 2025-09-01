@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h1>Meu Portfólio</h1>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html">Início</a></li>
+                <li class="nav-item"><a href="about.html">Sobre Mim</a></li>
+                <li class="nav-item"><a href="formacao.html">Formação</a></li>
+                <li class="nav-item"><a href="portfolio.html">Portfólio</a></li>
+                <li class="nav-item"><a href="contato.html">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section>
+            <h2 class="section-title">Entre em Contato</h2>
+            
+            <div class="card">
+                <p>Fique à vontade para entrar em contato comigo através do formulário abaixo. Responderei o mais breve possível!</p>
+                
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nome completo</label>
+                        <input type="text" id="name" class="form-control" placeholder="Seu nome" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" class="form-control" placeholder="seu@email.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" class="form-control" placeholder="Sua mensagem..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn">Enviar mensagem</button>
+                </form>
+            </div>
+            
+            <div class="card">
+                <h3>Outras formas de contato</h3>
+                <ul>
+                    <li><strong>E-mail:</strong> luanmagalhaes02@hotmail.com</li>
+                    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/luan-magalh%C3%A3es-5480b224b/" target="_blank">linkedin.com/in/luan-magalhães-5480b224b</a></li>
+                    <li><strong>GitHub:</strong> <a href="https://github.com/luanleft" target="_blank">github.com/luanleft</a></li>
+                    <li><strong>Telefone/WhatsApp:</strong> (21) 99097-4940</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Meu Portfólio. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
