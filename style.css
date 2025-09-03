@@ -66,7 +66,6 @@ body {
 
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://wallpapers.com/images/hd/1920x1080-hd-coding-r91n54fqny9hlmrk.jpg') no-repeat center center/cover;
-    opacity: 0.9;
     height: 80vh;
     display: flex;
     align-items: center;
@@ -192,4 +191,5 @@ footer {
     .hero-content h2 {
         font-size: 2rem;
     }
+
 }
